@@ -1,0 +1,11 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.smallimg {
+  width: 300px;
+}
+
+.descriptor {
+  font-weight: bold;
+}

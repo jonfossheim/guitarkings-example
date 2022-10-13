@@ -1,5 +1,100 @@
 * {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+  padding: 3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: upper-roman;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-size: 1.4rem;
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+nav a:visited {
+  color: black;
+}
+
+p:only-child {
+  color: red;
+}
+
+h2 + p {
+  font-style: italic;
+}
+
+article {
+  background-color: beige;
+}
+
+article h2 + p::first-letter {
+  font-size: 24px;
+}
+
+article h2::before {
+  content: '💀';
+}
+
+article .sale {
+  color: brown;
+}
+
+article {
+  background-color: aqua;
+}
+
+.sale a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+a.sale {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.sale {
+  color: blue;
 }
 
 .smallimg {
@@ -8,4 +103,33 @@
 
 .descriptor {
   font-weight: bold;
+}
+
+.rounded {
+  border-radius: 6px;
+}
+
+.content-box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  color: brown;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  background-color: blanchedalmond;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.btn-cta {
+  font-size: 25px;
+  background-color: green;
+  color: white;
+}
+
+#coolHover:hover {
+  background-color: greenyellow;
 }

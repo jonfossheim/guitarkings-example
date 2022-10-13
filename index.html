@@ -5,32 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guitar Kings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header id="top">
+    <header id="top" class="one rounded">
       <nav>
         <a href="index.html"> Guitar Kings </a>
         <ul>
-          <li><a href="index.html"> Home </a></li>
+          <li><a class="sale" href="index.html"> Home </a></li>
           <li><a href="guitars.html">Guitars</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a class="sale" href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <h1>Authentic Handmade Guitars</h1>
+      <h1 class="two">Authentic Handmade Guitars</h1>
       <a href="#guitarlist">View Guitars</a>
+
+      <button class="btn">BUY NOW</button>
+      <button class="btn btn-cta" id="coolHover">BUY NOW</button>
+      <button class="btn btn-cta">BUY NOW</button>
     </header>
 
-    <main class="backgimg">
-      <section>
+    <main>
+      <article>
+        <h2>test</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum rem
+          mollitia, enim eos labore natus ullam dolorem, necessitatibus id
+          molestiae fuga. Autem distinctio laboriosam iure inventore corporis
+          deleniti fugit ipsa!
+        </p>
+        <p class="sale">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum rem
+          mollitia, enim eos labore natus ullam dolorem, necessitatibus id
+          molestiae fuga. Autem distinctio laboriosam iure inventore corporis
+          deleniti fugit ipsa!
+        </p>
+      </article>
+      <div>
+        <p class="sale">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+          similique accusamus modi assumenda eaque alias illum nisi recusandae
+          aliquid, vitae consectetur dolore labore odio obcaecati est et in
+          omnis dicta!
+        </p>
+      </div>
+
+      <section class="two rounded">
         <h2>Our Guitars are:</h2>
-        <ol>
+        <ul>
           <li>Handcrafted with real Pennsylvanian wood</li>
           <li>Crafted by a family-run business</li>
           <li>Built to last a lifetime</li>
           <li>Beautiful with a unique sound</li>
           <li>The option for all music lovers</li>
-        </ol>
+        </ul>
 
         <iframe
           width="560"
@@ -43,7 +77,7 @@
         ></iframe>
       </section>
 
-      <section>
+      <section class="one">
         <h2>Reviews</h2>
         <div>
           <p>
@@ -69,10 +103,10 @@
         </div>
       </section>
 
-      <section id="guitarlist">
+      <section id="guitarlist" class="two">
         <h2>View our guitars</h2>
 
-        <div>
+        <div class="sale">
           <img class="smallimg" src="./media/guitar.webp" alt="thbb10" />
           <h3>THBB10</h3>
           <p>$500</p>
